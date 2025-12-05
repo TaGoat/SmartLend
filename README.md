@@ -68,7 +68,7 @@ Every decision is immutable. The system records a timestamped (UTC) **Audit Log*
 ### Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/SmartLend.git](https://github.com/YourUsername/SmartLend.git)
+    git clone [https://github.com/TaGoat/SmartLend.git](https://github.com/TaGoat/SmartLend.git)
     cd SmartLend
     ```
 
