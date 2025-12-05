@@ -52,7 +52,7 @@ Every decision is immutable. The system records a timestamped (UTC) **Audit Log*
 ## 🛠️ Tech Stack
 * **Framework:** .NET 10 (Preview)
 * **Architecture:** Clean Architecture / Onion Architecture
-* **AI Model:** Google Gemini 2.0 Flash (REST API)
+* **AI Model:** Google Gemini 2.5 Flash 
 * **Database:** In-Memory (Active) / SQL Server (Implemented)
 * **Testing:** xUnit
 * **Documentation:** Swagger / OpenAPI
