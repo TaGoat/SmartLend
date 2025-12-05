@@ -32,8 +32,8 @@ The solution follows strict **Clean Architecture** principles to ensure that Bus
 
 ## 🌟 Key Features
 
-### 🤖 1. AI Financial Advisor (Google Gemini 2.0)
-I integrated **Google Gemini 2.0 Flash** into the Infrastructure layer to act as a "Financial Advisor."
+### 🤖 1. AI Financial Advisor (Google Gemini 2.5)
+I integrated **Google Gemini 2.5 Flash** into the Infrastructure layer to act as a "Financial Advisor."
 * **Workflow:** When a loan is rejected by the C# math engine, the AI analyzes the user's data (Salary, Credit Score) and generates a polite, personalized financial tip.
 * **Safety:** The AI **never** makes the approval decision. It only explains it. This prevents "AI Hallucinations" from approving risky loans.
 
