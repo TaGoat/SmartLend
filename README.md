@@ -24,7 +24,7 @@ The solution follows strict **Clean Architecture** principles to ensure that Bus
     * Orchestrates the flow: `DTO -> Domain Logic -> Database -> AI Advisor`.
 3.  **🔵 Infrastructure (The Plugins):** Contains the external tools.
     * *Persistence Strategy:* Implements the Repository Pattern with **Dual Support** (In-Memory & SQL Server).
-    * *AI Service:* Google Gemini 2.0 Flash implementation via `HttpClient`.
+    * *AI Service:* Google Gemini 2.5 Flash implementation via `HttpClient`.
 4.  **🟢 API (The Entry Point):** The REST API/Swagger UI.
     * Wires everything together using Dependency Injection.
 
