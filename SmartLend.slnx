@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="SmartLend.Api/SmartLend.Api.csproj" />
+  <Project Path="SmartLend.Application/SmartLend.Application.csproj" />
+  <Project Path="SmartLend.Domain.Tests/SmartLend.Domain.Tests.csproj" />
+  <Project Path="SmartLend.Domain/SmartLend.Domain.csproj" />
+  <Project Path="SmartLend.Infrastructure/SmartLend.Infrastructure.csproj" />
+</Solution>
