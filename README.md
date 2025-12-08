@@ -8,7 +8,7 @@
 ## 🚀 Overview
 **SmartLend** is a compliance-ready financial engine designed to automate loan risk assessment. It moves beyond simple CRUD to demonstrate how **Deterministic Logic** and **Generative AI** can work together in a secure banking environment.
 
-The system enforces strict financial rules using C# (safe), while leveraging **Google Gemini 2.0 Flash** to generate empathetic, human-readable explanations for customers (smart).
+The system enforces strict financial rules using C# (safe), while leveraging **Google Gemini 2.5 Flash** to generate empathetic, human-readable explanations for customers (smart).
 
 ---
 
@@ -24,7 +24,7 @@ The solution follows strict **Clean Architecture** principles to ensure that Bus
     * Orchestrates the flow: `DTO -> Domain Logic -> Database -> AI Advisor`.
 3.  **🔵 Infrastructure (The Plugins):** Contains the external tools.
     * *Persistence Strategy:* Implements the Repository Pattern with **Dual Support** (In-Memory & SQL Server).
-    * *AI Service:* Google Gemini 2.0 Flash implementation via `HttpClient`.
+    * *AI Service:* Google Gemini 2.5 Flash implementation via `HttpClient`.
 4.  **🟢 API (The Entry Point):** The REST API/Swagger UI.
     * Wires everything together using Dependency Injection.
 
@@ -32,8 +32,8 @@ The solution follows strict **Clean Architecture** principles to ensure that Bus
 
 ## 🌟 Key Features
 
-### 🤖 1. AI Financial Advisor (Google Gemini 2.0)
-I integrated **Google Gemini 2.0 Flash** into the Infrastructure layer to act as a "Financial Advisor."
+### 🤖 1. AI Financial Advisor (Google Gemini 2.5)
+I integrated **Google Gemini 2.5 Flash** into the Infrastructure layer to act as a "Financial Advisor."
 * **Workflow:** When a loan is rejected by the C# math engine, the AI analyzes the user's data (Salary, Credit Score) and generates a polite, personalized financial tip.
 * **Safety:** The AI **never** makes the approval decision. It only explains it. This prevents "AI Hallucinations" from approving risky loans.
 
@@ -52,7 +52,7 @@ Every decision is immutable. The system records a timestamped (UTC) **Audit Log*
 ## 🛠️ Tech Stack
 * **Framework:** .NET 10 (Preview)
 * **Architecture:** Clean Architecture / Onion Architecture
-* **AI Model:** Google Gemini 2.0 Flash (REST API)
+* **AI Model:** Google Gemini 2.5 Flash 
 * **Database:** In-Memory (Active) / SQL Server (Implemented)
 * **Testing:** xUnit
 * **Documentation:** Swagger / OpenAPI
@@ -68,7 +68,7 @@ Every decision is immutable. The system records a timestamped (UTC) **Audit Log*
 ### Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/SmartLend.git](https://github.com/YourUsername/SmartLend.git)
+    git clone [https://github.com/TaGoat/SmartLend.git](https://github.com/TaGoat/SmartLend.git)
     cd SmartLend
     ```
 
