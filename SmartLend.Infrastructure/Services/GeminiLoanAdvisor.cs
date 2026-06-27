@@ -7,7 +7,7 @@ namespace SmartLend.Infrastructure.Services;
 
 public class GeminiLoanAdvisor : ILoanAdvisor
 {
-    private const string ApiKey = "***REMOVED***"; 
+    private const string ApiKey = "paste api"; 
 
     private const string ModelId = "gemini-2.5-flash"; 
     private const string Endpoint = $"https://generativelanguage.googleapis.com/v1beta/models/{ModelId}:generateContent?key={ApiKey}";
